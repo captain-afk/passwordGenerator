@@ -18,7 +18,7 @@ def randomizePassword(letterCount, numberCount, symbolCount):
     shuffle(newPassword)                            #Shuffle all the characters you already gathered
     return(newPassword)                             #Return as a list
 
-def listToString(userList):                     #Input a list and return as a single concatonated string
+def listToString(userList):                         #Input a list and return as a single concatonated string
     s = ''
     for x in userList:
         s += x
